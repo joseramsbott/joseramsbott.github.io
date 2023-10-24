@@ -50,7 +50,7 @@ font-family: 'Lato', sans-serif;
 }
 body{
 	font-size:14px;
-	background: #fff;
+	background: #F7EEDD;
     max-width:1920px;
     margin:0 auto;
 	overflow-x:hidden;
@@ -113,7 +113,7 @@ html,body{
 
 }
 .header li  a{
-	color: #888;
+	color: #2c2c2c;
 	outline: 0;
 }
 /* header-left  */
@@ -134,7 +134,7 @@ html,body{
 	color: #888;
 }
 .header-left li :hover {
-	color: #18FFFF;
+	color: #2c2c2c;
 }/* header-left  */
 
 /* header-right */
@@ -212,12 +212,12 @@ html,body{
 .wrapper-sticky{
 	position: relative;
 	display: inline-block;
-	background: rgba(24, 255, 255,1);
+	background: #FF7F50;
 }
 
 /* sticky */
 .sticky{
-	background: rgba(24, 255, 255,1);
+	background: #FF7F50;
 	padding: 10px 0px 0px;
 	height:80px;
 	color: #fff;
@@ -368,10 +368,10 @@ html,body{
 .single-slide-item  button:active .slide-btn ,
 .single-slide-item button:focus .slide-btn{
 	display: inline-block;
-    background: #f5f5fb;
+    background: #F7EEDD;
     padding: 17px 50px;
-    color: #18FFFF;
-    border: 1px solid #f5f5fb;
+    color: #dd6236;
+    border: 1px solid #F7EEDD;
 	font-size:16px;
 	font-weight:600;
 	text-transform: uppercase;
@@ -389,9 +389,9 @@ html,body{
 }
 
 .single-slide-item  button.slide-btn:hover{
-	 background: transparent;
-	 color: #fff;
-	 border: 1px solid #fff;
+	 background: #ede4d3;
+	 color: #8f1e00;
+	
 }
 .single-slide-item.slide-1 {
 	background-image:url(../../assets/images/banner/banner1.jpg);
@@ -404,7 +404,7 @@ html,body{
 	z-index:1;
 }
 .single-slide-item.slide-1:before,.single-slide-item.slide-2:before{
-	background: rgba(24, 255, 255, 0.4);
+	background: rgba(247, 238, 221, 0.4);
 	position:absolute;
 	left:0;
 	top:0;
@@ -512,7 +512,7 @@ html,body{
 
 /* section-header */
 .section-header h2{
-	color: #44454f;
+	color: #8f1e00;
 	font-size: 30px;
 	font-family: 'Playfair Display', serif;
 	font-weight: 700;
@@ -609,14 +609,14 @@ html,body{
 		5. About
 --------------------------------------*/
 .about-us{
-	background: #f9faff;
+	background: #ede4d3;
 	padding: 120px 0 175px;
 }
 .about-us-txt{
 	margin-top: 103px;
 }
 .about-us h2 {
-	color:#4d4e54;	
+	color:#8f1e00;	
 	font-size:30px;
 	font-family: 'Playfair Display', serif;
 	font-weight: 700;
@@ -726,7 +726,7 @@ a:focus.service-btn{
 .statistics:before{
 	position:absolute;
 	content:'';
-	background: rgba(70, 255, 200,0.6);
+	background: rgba(255, 210, 153,0.6);
 	height:100%;
 	width:100%;
 	top:0;
@@ -743,12 +743,12 @@ a:focus.service-btn{
     margin-left: 28px;
 }
 .statistics-content .counter{
-	color:#fff;
+	color:#8f1e00;
 	font-size:32px;
 	font-family: 'Poppins', sans-serif;
 }
 .statistics-content h3{
-	color:#fff;
+	color:#8f1e00;
 	font-size:20px;
 	text-transform:capitalize;
 	font-family: 'Poppins', sans-serif;
@@ -827,7 +827,7 @@ a:focus.service-btn{
 	position:absolute;
 	height:100%;
 	width:100%;
-	background:rgba(24, 255, 255,0.6);
+	background:#FF7F50;
 	display:flex;
 	align-items:center;
 	text-transform: capitalize;
@@ -1203,7 +1203,7 @@ a:active.learn-btn{
 		12. Client
 --------------------------------------*/
 .clients{
-	background: #18FFFF;
+	background: #ffd299;
 	padding: 53px 0 0px;
 }
 .clients-area {
@@ -1346,7 +1346,7 @@ a:active.learn-btn{
 	position: relative;
 }
 .contact:before{
-	background:rgba(70, 255, 200,0.6);
+	background:rgba(196, 188, 171,0.6);
 	position:absolute;
 	left:0;
 	top:0;
@@ -1514,10 +1514,10 @@ a:active.learn-btn{
 --------------------------------------*/
 .new-project {
     padding: 72px 0 72px;
-    background: #18FFFF;
+    background: #ffd299;
 }
 .single-new-project h3{
-	color: #fff;
+	color: #8B4513;
 	font-size: 30px;
 	font-family: 'Poppins', sans-serif;
 	line-height: 1.5;
@@ -1529,8 +1529,8 @@ a:active.learn-btn{
 	display: inline-block;
     padding: 17px 42px;
     background: transparent;
-	color: #fff;
-	border: 1px solid #fff;
+	color: #8B4513;
+	border: 1px solid #8B4513;
 	font-size:13px;
 	text-transform: uppercase;
 	font-family: 'Lato', sans-serif;
@@ -1543,16 +1543,16 @@ a:active.learn-btn{
 }
 
 .single-new-project  a.slide-btn:hover{
-	background: #f5f5fb;
-	color: #18FFFF;
-    border: 1px solid #f5f5fb;
+	background: #F7EEDD;
+	color: #dd6236;
+    border: 1px solid #F7EEDD;
 }
 /*-------------------------------------
 		16. Footer
 --------------------------------------*/
 .hm-footer{
     padding-bottom:68px;
-    background: #212135;
+    background: #2c2c2c;
 }
 .hm-footer-details {
     margin-top: 120px;
@@ -1716,7 +1716,7 @@ a:active.learn-btn{
 		17. Footer- copyright
 --------------------------------------*/
 .footer-copyright {
-	background:#1a1a2a;
+	background:#000000;
 	padding: 30px 0 35px;
 }
 .foot-copyright{
@@ -2213,8 +2213,8 @@ a:active.learn-btn{
     cursor: pointer;
     z-index:15;
     color: #fff;
-    background:#18FFFF;
-	border:1px solid #18FFFF;
+    background:#dd6236;
+	border:1px solid #dd6236;
 	border-radius:5px;
 	-webkit-transition: .5s; 
 	-moz-transition:.5s; 
@@ -2224,9 +2224,9 @@ a:active.learn-btn{
 	z-index: 2;
 }
 #scroll-Top  .return-to-top:hover {
-    background:#18FFFF;
+    background:#dd6236;
     color: #fff;
-	border:1px solid #18FFFF;
+	border:1px solid #dd6236;
 	border-radius:50%;
 }
 
